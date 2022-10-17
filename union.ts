@@ -1,5 +1,5 @@
 {
-  //Union
+  //Union Types: | or의 느ㅁ
   type SuccessState = {
     result: 'success',
     response : {
