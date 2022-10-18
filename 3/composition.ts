@@ -213,5 +213,5 @@
   const latteMachine = new CoffeeMachine(23, cheapMilkSteamer, noSugar);
   const coldLatteMachine = new CoffeeMachine(23, coldMilkSteamer, noSugar);
 
-  const sweetLatteMachine = new SweetCafeLatteMachine(12, cheapMilkSteamer, candySugar);
+  const sweetLatteMachine = new CoffeeMachine(12, cheapMilkSteamer, candySugar);
 }
