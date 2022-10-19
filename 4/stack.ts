@@ -38,7 +38,7 @@ class StackImpl implements Stack {
   }
 }
 
-const stack = new StackImpl();
+const stack = new StackImpl(10);
 stack.push(`jinwoo 1`);
 stack.push(`jinwoo 2`);
 stack.push(`jinwoo 3`);
