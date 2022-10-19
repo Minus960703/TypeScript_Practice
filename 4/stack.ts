@@ -42,6 +42,14 @@ const stack = new StackImpl(10);
 stack.push(`jinwoo 1`);
 stack.push(`jinwoo 2`);
 stack.push(`jinwoo 3`);
+stack.push(`jinwoo 4`);
+stack.push(`jinwoo 5`);
+stack.push(`jinwoo 6`);
+stack.push(`jinwoo 7`);
+stack.push(`jinwoo 8`);
+stack.push(`jinwoo 9`);
+stack.push(`jinwoo 10`);
+// stack.push(`jinwoo 11`);
 while ( stack.size !== 0) {
   console.log(stack.pop());
 }
