@@ -1,3 +1,4 @@
+{class TimeoutError extends Error {}
 class NetworkClient {
   tryConnet(): void {
     throw new Error('no network!');
@@ -30,3 +31,4 @@ const app = new App(service);
 service.login();
 
 
+}
